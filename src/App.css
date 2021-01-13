@@ -1,0 +1,21 @@
+.app-wrapper{
+  margin: 0 auto;
+  margin-top: 0.2%;
+  display: grid;
+  width: 1500px;
+  height: 750px;
+  grid-template-areas: 
+  "l h"  
+  "n p";
+  
+  grid-template-rows: 60px 677px;
+  grid-template-columns: 120px 1385px;
+  grid-gap: 10px;
+}
+
+.app-wrapper-profile{
+  grid-area: p;
+  background-color: aliceblue ;
+  width: 1385px;
+  height: 677px;
+}
