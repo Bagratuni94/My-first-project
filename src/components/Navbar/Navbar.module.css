@@ -1,0 +1,15 @@
+.navbar{
+    grid-area: n;
+    background-color:rgb(80, 80, 138);
+    margin-left: -12%;
+    padding:10px;
+  }
+
+.item a{
+    color:white;
+    text-decoration: none;
+  }
+.item .active{
+    color:gold;
+  }
+
